@@ -17,7 +17,7 @@ describe('Site SwagLabs', () => {
 //Test2
 describe('SiteSwagLabs', () => {
 
-    it('login user standard', () => {
+    it('login standard user', () => {
     cy.visit('https://www.saucedemo.com/');
     cy.get('#user-name').type('standard_user');
     cy.get('#password').type('secret_sauce');
